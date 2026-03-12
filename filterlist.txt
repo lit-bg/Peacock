@@ -1,9 +1,8 @@
 # Credits to Imaginary-Storage957 from reddit for the original idea and inspiration as well as the starting point for these rules.
-# Focuses on minimizing ads for vod content such as movies and shows.
-# Replays are broken due tosaid focus.
 
-/^(g\d{3})-(vod|sf|sle)-us-cmaf-prd-(cf|cc|fy|ak)\.cdn\.peacocktv\.com$/
-@@||g005-sf-us-cmaf-prd-fy.cdn.peacocktv.com^
+
+/^(g\d{3})-(vod|sf|sle)-us-cmaf-prd-(cf|cc|ak)\.cdn\.peacocktv\.com$/
+||g0*-sle-us-cmaf-prd-fy.cdn.peacocktv.com^
 
 ||mparticle.com^$important
 ||fwmrm.net^$important
@@ -11,4 +10,6 @@
 ||nbcstreaming.*.omtrdc.net^$important
 ||ingest.webcol.sdp.peacocktv.com^$important
 ||sas-apm-prod.telemetry.nbcuott.com^$important
-||connect.ctn.ovpe.prod.nbcuott.com
+||ssai.peacocktv.com^$important
+||ovp.peacocktv.com
+@@||play.ovp.peacocktv.com^$important
