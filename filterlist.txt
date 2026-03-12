@@ -13,3 +13,4 @@
 ||ssai.peacocktv.com^$important
 ||ovp.peacocktv.com
 @@||play.ovp.peacocktv.com^$important
+||ingest.webcol.sdp.peacocktv.com
