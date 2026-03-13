@@ -1,7 +1,7 @@
 # Credits to Imaginary-Storage957 from reddit for the original idea and inspiration as well as the starting point for these rules.
 
 
-/^(g\d{3})-(vod|sf|sle)-us-cmaf-prd-(cf|cc|ak|ak-a\d{3})\.cdn\.peacocktv\.com$/
+/^(g\d{3})-(vod|sf|sle)-us-cmaf-prd-(ak-a\d{3}|cf|cc|ak)\.cdn\.peacocktv\.com$/
 ||g0*-sle-us-cmaf-prd-fy.cdn.peacocktv.com^
 
 ||mparticle.com^$important
