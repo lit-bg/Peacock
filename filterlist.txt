@@ -3,6 +3,7 @@
 
 /^(g\d{3})-(vod|sf|sle)-us-cmaf-prd-(cf|cc|fy)\.cdn\.peacocktv\.com$/
 @@||g005-sf-us-cmaf-prd-fy.cdn.peacocktv.com^
+||g005-sf-us-cmaf-prd-ak.cdn.peacocktv.com^
 ||*-sle-us-cmaf-prd-ak.cdn.peacocktv.com^
 ||*-vod-us-cmaf-prd-ns.prd.pck.netskrt.net^
 
