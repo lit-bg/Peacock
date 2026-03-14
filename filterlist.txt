@@ -1,11 +1,10 @@
 # Credits to Imaginary-Storage957 from reddit for the original idea and inspiration as well as the starting point for these rules.
 
 
-/^(g\d{3})-(vod|sf|sle)-us-cmaf-prd-(cf|cc|fy)\.cdn\.peacocktv\.com$/
-@@||g005-sf-us-cmaf-prd-fy.cdn.peacocktv.com^
-||g005-sf-us-cmaf-prd-ak.cdn.peacocktv.com^
-||*-sle-us-cmaf-prd-ak.cdn.peacocktv.com^
+/^(g\d{3})-(vod|sf|sle)-us-cmaf-prd-(cf|cc|ak|fy)\.cdn\.peacocktv\.com$/
 ||*-vod-us-cmaf-prd-ns.prd.pck.netskrt.net^
+@@||g005-sf-us-cmaf-prd-fy.cdn.peacocktv.com^
+@@||*-vod-us-cmaf-prd-ak.cdn.peacocktv.com^
 
 ||mparticle.com^$important
 ||fwmrm.net^$important
@@ -14,4 +13,3 @@
 ||ingest.webcol.sdp.peacocktv.com^$important
 ||sas-apm-prod.telemetry.nbcuott.com^$important
 ||ssai.peacocktv.com^$important
-||connect.ctn.ovpe.prod.nbcuott.com
