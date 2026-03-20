@@ -2,8 +2,8 @@
 
 
 /(g\d{3})-(vod|sf|sle)-us-cmaf-prd-(cf|cc|ak(-.*)?)\.cdn\.peacocktv\.com/
-||g*-vod-us-cmaf-prd-ns.prd.pck.netskrt.net^
-||g*-sle-us-cmaf-prd-fy.cdn.peacocktv.com^
+||*-vod-us-cmaf-prd-ns.prd.pck.netskrt.net^
+||*-sle-us-cmaf-prd-fy.cdn.peacocktv.com^
 
 ||mparticle.com^$important
 ||fwmrm.net^$important
