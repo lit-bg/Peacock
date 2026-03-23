@@ -3,12 +3,14 @@
 
 /^(g\d{3})-(vod|sf|sle)-us-cmaf-prd-(cf|cc|fy|ak.*|ak)\.cdn\.peacocktv\.com$/
 ||g*-vod-us-cmaf-prd-ns.prd.pck.netskrt.net^
-@@||*-sf-us-cmaf-prd-fy.cdn.peacocktv.com^
+@@||g*-sf-us-cmaf-prd-fy.cdn.peacocktv.com^
+@@||g*-vod-us-cmaf-prd-fy.cdn.peacocktv.com^
 
 ||mparticle.com^$important
 ||fwmrm.net^$important
 ||scorecardresearch.com^$important
-||nbcstreaming.*.omtrdc.net^$important
+||sc.omtrdc.net^$important
+||hb-api.omtrdc.net^$important
 ||ingest.webcol.sdp.peacocktv.com^$important
-||sas-apm-prod.telemetry.nbcuott.com^$important
+||telemetry.nbcuott.com^$important
 ||ssai.peacocktv.com^$important
