@@ -16,4 +16,3 @@
 ||ingest.webcol.sdp.peacocktv.com^$important
 ||telemetry.nbcuott.com^$important
 ||ssai.peacocktv.com^$important
-||connect.ctn.ovpe.prod.nbcuott.com
